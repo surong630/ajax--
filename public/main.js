@@ -1,10 +1,9 @@
 const request = new XMLHttpRequest();
 let n =1;
-
   getNext.onclick = () => {
-    if(n === 3) {
-      alert('没有下一页了')
-      return false
+    if(n === 2) {
+      getNext.disabled = "disabled"
+      getNext.textContent = '没有下一页了'
     }
     request.open('GET', `/page${n+1}`)
     request.onreadystatechange = () => {
