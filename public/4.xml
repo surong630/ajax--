@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- XML demonstration -->
+
+<?xml-stylesheet type="text/css" href="style9.css"?>
+
+<!DOCTYPE planet>
+<planet>
+<name>Arctic</name>
+<area>13,000</area>
+<depth>1,200</depth>
+</planet>
